@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Instalar dependencias del sistema
 RUN apt-get update && apt-get install -y \
-    mysql-client \
+    mariadb-client-compat \
     default-libmysqlclient-dev \
     && rm -rf /var/lib/apt/lists/*
 
