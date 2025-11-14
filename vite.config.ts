@@ -56,5 +56,6 @@
     server: {
       port: 3000,
       open: true,
+      allowedHosts: ['kitchon.fun', 'www.kitchon.fun', 'localhost', '127.0.0.1'],
     },
   });
